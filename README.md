@@ -18,4 +18,13 @@ URL		:	http://localhost:8080/kafka/publish?message=Hello
 
 NB:This is a pub-sub setup and when youn are running on local after posting your message on postman or using the swagger documentation
 provided you should notice the produced and consumed message on the IDE console
-This is applicable on the Confluent Cloud Apache Kakfka dashboard also
+You can check for the produced messages on Confluent Cloud Apache Kakfka dashboard also.
+#To access the kafka confluent cloud dashboard and check the messages that you are posting using this simple demo api
+use the following url: 
+https://confluent.cloud/login 
+#unfortunately when setting up the cluster you only use one email so until we figure something out, use the following credentials
+to get access to the kafka confluent cloud cluster using the web UI 
+email:victor.sithole@qubedlab.com 
+password:Vickells8# 
+#topic name:test 
+#clustername:qubedlab_kafka_cluster 
