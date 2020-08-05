@@ -1,17 +1,9 @@
 # spring-boot-kafka-api
-Build Restful API for a simple kafka application using Spring Boot and Apache Kafka.
-
-## Running the kafka
-To run the kafka:
-```
-.\bin\windows\zookeeper-server-start.bat .\config\zookeeper.properties
-.\bin\windows\kafka-server-start.bat .\config\server.properties
-```
+Build Restful API for a simple kafka application using Spring Boot and Confluent Cloud Apache Kafka.
 
 **Create kafka topic**
-```bash
-kafka-topics.bat --create --zookeeper localhost:2181 --replication-factor 1 --partitions 1 --topic test
-```
+create a topic of your choice on confluent cloud using the CLI or web UI in this case topic test was already
+created
 
 ## Running the program
 To run the application:
@@ -23,3 +15,7 @@ mvn spring-boot:run
 ```
 Method  	: 	POST
 URL		:	http://localhost:9000/kafka/publish?message=Hello
+
+NB:This is a pub-sub setup and when youn are running on local after posting your message on postman or using the swagger documentation
+provided you should notice the produced and consumed message on the IDE console
+This is applicable on the Confluent Cloud Apache Kakfka dashboard also
