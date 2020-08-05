@@ -1,0 +1,4 @@
+mvn sonar:sonar \
+  -Dsonar.projectKey=imagecapture \
+  -Dsonar.host.url=http://localhost:9000 \
+  -Dsonar.login=978315e2af1cff5718bcdfd1a9ba1eca67dc9d87
