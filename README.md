@@ -1,5 +1,5 @@
 # confluentkafka-demoservice-api
-Build Restful API for a simple kafka application using Spring Boot and Confluent Cloud Apache Kafka.
+Restful API for a simple kafka application using Spring Boot and Confluent Cloud Apache Kafka.
 
 **Create kafka topic**
 create a topic of your choice on confluent cloud using the CLI or web UI in this case topic test was already
