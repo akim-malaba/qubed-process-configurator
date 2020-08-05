@@ -14,7 +14,7 @@ mvn spring-boot:run
 **Publish Mesages**
 ```
 Method  	: 	POST
-URL		:	http://localhost:9000/kafka/publish?message=Hello
+URL		:	http://localhost:8080/kafka/publish?message=Hello
 
 NB:This is a pub-sub setup and when youn are running on local after posting your message on postman or using the swagger documentation
 provided you should notice the produced and consumed message on the IDE console
