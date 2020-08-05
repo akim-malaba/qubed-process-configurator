@@ -10,7 +10,7 @@ To run the application:
 ```
 mvn spring-boot:run
 ```
-## Explore Rest APIs
+## Explore the Rest API
 **Publish Mesages**
 ```
 Method  	: 	POST
