@@ -1,4 +1,6 @@
-com\kafka\api\controllers\KafkaController.class
-com\kafka\api\SpringBootKafkaApiApplication.class
-com\kafka\api\services\Consumer.class
-com\kafka\api\services\Producer.class
+com/kafka/api/SpringBootKafkaApiApplication.class
+com/kafka/api/controllers/KafkaController.class
+com/kafka/api/services/Producer.class
+com/kafka/api/model/Events.class
+com/kafka/api/services/Consumer.class
+com/kafka/api/repository/EventsRepository.class
